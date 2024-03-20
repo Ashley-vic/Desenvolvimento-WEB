@@ -18,7 +18,7 @@ const Filho = ({peso, altura}) => {
     let msg = Mensagem(IMC)
 
     return <div>
-        <h2>IMC: {imc} </h2>
+        <h3>IMC: {imc} </h3>
         {msg}
     </div>
 }
